@@ -348,3 +348,134 @@ select:focus {
   outline: none;
   box-shadow: 0 0 10px rgba(200, 164, 93, 0.4);
 }
+
+/* ================= WHY CHOOSE US ================= */
+
+.why-section {
+  padding: 90px 0;
+}
+
+.why-title {
+  text-align: center;
+  font-size: 48px;
+  color: #3d2b1f;
+  margin-bottom: 15px;
+}
+
+.why-subtitle {
+  text-align: center;
+  color: #4e342e;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 60px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.why-card {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 35px;
+  text-align: center;
+  transition: 0.35s;
+  border: 1px solid rgba(200, 155, 60, 0.35);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.why-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 45px rgba(200, 155, 60, 0.25);
+}
+
+.why-icon {
+  margin-bottom: 20px;
+}
+
+.why-card h3 {
+  color: #4e342e;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.why-card p {
+  color: #555;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .why-title {
+    font-size: 36px;
+  }
+
+  .why-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* ================= CONTACT US ================= */
+
+.contact-section {
+  padding: 100px 0;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 48px;
+  color: #4e342e;
+  margin-bottom: 15px;
+}
+
+.contact-subtitle {
+  text-align: center;
+  color: #555;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: 0.35s;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(212, 175, 55, 0.25);
+}
+
+.contact-icon {
+  font-size: 45px;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  color: #4e342e;
+  margin-bottom: 15px;
+}
+
+.contact-card p {
+  color: #666;
+  line-height: 1.8;
+}

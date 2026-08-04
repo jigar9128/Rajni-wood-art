@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Rajnish Wood Art",
+  title: "Rajni Wood Art",
   description: "Premium Wooden Furniture & Interior Design",
 };
 
