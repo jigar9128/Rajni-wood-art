@@ -13,12 +13,7 @@ export const metadata = {
   description: "Premium Wooden Furniture & Interior Design",
 
   verification: {
-    google: (
-      <meta
-        name="google-site-verification"
-        content="4FhW7V56tvwZQBoOHrjPG1sqMgH7QOOOUK6f2lIs3Jc"
-      />
-    ),
+    google: "4FhW7V56tvwZQBoOHrjPG1sqMgH7QOOOUK6f2lIs3Jc",
   },
 };
 
