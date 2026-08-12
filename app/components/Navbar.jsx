@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="container nav-container">
         <div className="logo">
           <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
-            Rajnish Wood Art
+            Rajni Wood Art
           </Link>
         </div>
 
