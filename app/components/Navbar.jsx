@@ -42,10 +42,6 @@ export default function Navbar() {
             Why Choose Us
           </Link>
 
-          <Link href="/review" onClick={closeMenu}>
-            Write Review
-          </Link>
-
           <Link href="/reviews" onClick={closeMenu}>
             Reviews
           </Link>
