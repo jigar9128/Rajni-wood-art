@@ -493,8 +493,8 @@ select:focus {
 /* Mobile */
 @media (max-width: 768px) {
   .navbar {
-    position: sticky;
-    top: 0;
+    position: relative;
+    z-index: 999;
   }
 
   .nav-container {
