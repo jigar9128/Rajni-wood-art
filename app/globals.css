@@ -129,17 +129,6 @@ body {
   color: black;
 }
 
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
 /* ================= HERO ================= */
 
 .hero {
@@ -478,4 +467,73 @@ select:focus {
 .contact-card p {
   color: #666;
   line-height: 1.8;
+}
+
+/* ================= MOBILE NAVBAR ================= */
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: #3e2723;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-container {
+    width: 100%;
+    padding: 14px 20px;
+    min-height: 64px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+    padding: 20px 0 10px;
+  }
+
+  .nav-links.mobile-open {
+    display: flex;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .nav-links .btn-review {
+    padding: 10px 20px;
+  }
 }
